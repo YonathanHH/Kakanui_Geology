@@ -5,10 +5,10 @@ export function Navbar() {
   return (
     <header className="flex flex-col sm:flex-row justify-between items-start sm:items-end border-b border-geo-ink pb-4 mx-6 sm:mx-8 mt-8 mb-6">
       <div className="flex flex-col mb-4 sm:mb-0">
-        <span className="text-[10px] uppercase tracking-[0.2em] font-sans font-bold opacity-60 text-geo-ink">Project Code: GEOL351</span>
+        <span className="text-[10px] uppercase tracking-[0.2em] font-sans font-bold opacity-60 text-geo-ink">University of Canterbury GEOL351 2021 Class</span>
         <a href="#" className="flex items-center gap-2 mt-1">
           <h1 className="text-3xl font-serif font-black tracking-tight leading-none uppercase text-geo-ink">
-            Oamaru Area
+            Kakanui Field
           </h1>
         </a>
       </div>

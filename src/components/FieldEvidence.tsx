@@ -53,9 +53,6 @@ export function FieldEvidence() {
                   alt="Outcrop placeholder" 
                   className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
                 />
-                <div className="relative z-10 bg-geo-ink text-white px-2 py-1 text-[9px] font-sans font-bold uppercase tracking-widest mix-blend-difference">
-                  {item.type}
-                </div>
               </div>
 
               <p className="text-[11px] font-sans leading-relaxed text-geo-ink font-medium mt-1">

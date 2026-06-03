@@ -2,7 +2,7 @@ export const projectData = {
   hero: {
     title: 'Volcanological History of the Oamaru Area',
     subtitle: 'Waitaki Basin, New Zealand • Mid-Cretaceous to Mid-Miocene',
-    positioning: 'A digital field report and case study exploring the geological evolution and monogenetic Surtseyan volcanic events of North Otago.',
+    positioning: 'A digital field report and case study exploring the geological evolution and monogenetic Surtseyan volcanic events of North Otago by Yonathan Hary Hutagalung.',
   },
   overview: {
     description: 'This field project investigates the sedimentation and volcanological history of the Waitaki Basin from the Mid-Cretaceous through the Mid-Miocene. Using field mapping, clast counting, and outcrop analysis, the project unpacks the transition from fluvial systems to deep marine environments, punctuated by the explosive Eocene-Oligocene submarine volcanism of the Waiareka and Deborah volcanic groups.',
