@@ -26,7 +26,7 @@ export function Navbar() {
             <span className="opacity-40 transition-opacity group-hover:opacity-100 text-geo-ink">Section</span>
             <span className="font-bold text-geo-rust">Evidence</span>
           </a>
-          <a href="#explore" className="bg-geo-ink text-geo-bg px-3 py-1.5 font-bold uppercase transition-colors hover:bg-geo-rust text-[9px]">
+          <a href="https://github.com/YonathanHH/Kakanui_Geology" className="bg-geo-ink text-geo-bg px-3 py-1.5 font-bold uppercase transition-colors hover:bg-geo-rust text-[9px]">
             Explore Project
           </a>
         </nav>

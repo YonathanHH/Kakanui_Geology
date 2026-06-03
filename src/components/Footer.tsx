@@ -7,10 +7,9 @@ export function Footer() {
       </div>
       <div className="flex gap-3">
         <button className="px-4 py-2 bg-white border-2 border-geo-ink text-[10px] font-sans font-black uppercase tracking-widest text-geo-ink hover:bg-geo-ink hover:text-white transition-colors hidden sm:block">
-          View Raw Data
-        </button>
-        <button className="px-4 py-2 bg-geo-ink border-2 border-geo-ink text-white text-[10px] font-sans font-black uppercase tracking-widest hover:bg-geo-rust hover:border-geo-rust transition-colors shadow-[2px_2px_0px_#DED9D1]">
-          Full PDF Report
+        <a href="https://github.com/YonathanHH/Kakanui_Geology">
+          View Raw Data On GitHub
+        </a>
         </button>
       </div>
     </footer>
