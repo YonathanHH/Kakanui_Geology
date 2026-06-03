@@ -10,8 +10,12 @@ const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfa
 const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-jetbrains-mono' });
 
 export const metadata: Metadata = {
-  title: 'GEOL351 Field Project | Volcanological History of Oamaru',
-  description: 'Digital case study and field report exploring the geological evolution and volcanological history of the Waitaki Basin and Oamaru Area.',
+  title: "GEOL351 Field Project | Volcanological History of Oamaru",
+  description:
+    "Digital case study and field report exploring the geological evolution and volcanological history of the Waitaki Basin and Oamaru area.",
+  icons: {
+    icon: "/images/icon.png",
+  },
 };
 
 export default function RootLayout({
