@@ -9,7 +9,7 @@ export function Reflection() {
         <img 
           src="/images/end.jpeg" 
           alt="Geological Background Placeholder" 
-          className="w-full h-full object-cover grayscale opacity-30"
+          className="w-full h-full object-cover grayscale opacity-65"
         />
         <div className="absolute inset-0 bg-geo-bg/80 mix-blend-normal"></div>
       </div>

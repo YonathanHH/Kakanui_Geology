@@ -13,7 +13,7 @@ export function Hero() {
           alt="Geological Background Placeholder" 
           className="w-full h-full object-cover grayscale brightness-50"
         />
-        <div className="absolute inset-0 bg-[#2D2926]/40 mix-blend-multiply"></div>
+        <div className="absolute inset-0 bg-[#2D2926]/65 mix-blend-multiply"></div>
       </div>
       
       <div className="absolute inset-0 z-0 opacity-10 bg-[linear-gradient(to_right,#F5F2ED_1px,transparent_1px),linear-gradient(to_bottom,#F5F2ED_1px,transparent_1px)] bg-[size:16px_16px]"></div>
