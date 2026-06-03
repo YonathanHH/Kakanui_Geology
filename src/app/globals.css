@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), "Playfair Display", ui-serif, system-ui, serif;
+  --font-display: var(--font-playfair), "Playfair Display", ui-serif, system-ui, serif;
+  --font-mono: var(--font-jetbrains-mono), "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-geo-bg: #F5F2ED;
+  --color-geo-ink: #2D2926;
+  --color-geo-border: #DED9D1;
+  --color-geo-rust: #8B4513;
+  --color-geo-olive: #556B2F;
+  --color-geo-sand: #8B7D6B;
+  --color-geo-clay: #A0522D;
+  --color-geo-slate: #4A5568;
+}
+
+@layer base {
+  :root {
+    --background: var(--color-geo-bg);
+    --foreground: var(--color-geo-ink);
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
