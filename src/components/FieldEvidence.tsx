@@ -2,6 +2,13 @@
 import { motion } from "motion/react";
 import { projectData } from "@/data/projectData";
 
+const outcropImages = [
+  "/images/fig1.png",
+  "/images/fig2.png",
+  "/images/fig3.jpg",
+  "/images/fig4.jpg",
+];
+
 export function FieldEvidence() {
   return (
     <section id="evidence" className="p-6 sm:p-8 border-b border-geo-ink bg-white">
@@ -42,12 +49,7 @@ export function FieldEvidence() {
               
               <div className="w-full aspect-[4/3] bg-white border border-geo-ink border-b-4 flex flex-col items-center justify-center relative overflow-hidden group-hover:border-geo-rust transition-colors mt-2 mb-4">
                 <img 
-                  src=[
-					"/images/fig1.png",
-					"/images/fig2.png",
-					"/images/fig3.jpg",
-					"/images/fig4.jpg"
-					];  
+                  src={outcropImages[index]}
                   alt="Outcrop placeholder" 
                   className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
                 />
