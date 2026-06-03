@@ -100,5 +100,5 @@ export const projectData = {
       text: 'Extensive hydrothermal alteration occurred alongside eruptions, depositing pinkish magnesium calcite around fault boundaries near ancient vent systems.',
     }
   ],
-  reflection: 'This field study synthesized structural observations, sedimentological analysis, and mapping to rebuild a deeply dynamic marine volcanic history. By linking micro-observations—like the presence of uncooled juvenile clasts in limestone—to macro-structures like paleo-cones, the project demonstrated the value of combining clast counting, structural dipping, and facies analysis to interpret complex volcanic evolution.'
+  reflection: 'This field study changed how I read outcrops: small details like uncooled juvenile clasts and calcite veins pointed to submarine eruptions and hydrothermal influence, and when combined with mapping they revealed a coherent volcanic history for the area.'
 };

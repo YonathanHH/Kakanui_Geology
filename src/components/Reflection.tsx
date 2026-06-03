@@ -7,7 +7,7 @@ export function Reflection() {
       {/* Background Image Placeholder */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/images/open.jpeg" 
+          src="/images/end.jpeg" 
           alt="Geological Background Placeholder" 
           className="w-full h-full object-cover grayscale opacity-30"
         />

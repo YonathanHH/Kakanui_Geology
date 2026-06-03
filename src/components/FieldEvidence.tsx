@@ -5,7 +5,7 @@ import { projectData } from "@/data/projectData";
 const outcropImages = [
   "/images/fig1.png",
   "/images/fig2.png",
-  "/images/fig3.jpg",
+  "/images/fig3.JPG",
   "/images/fig4.jpg",
 ];
 
@@ -54,7 +54,7 @@ export function FieldEvidence() {
                   className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
                 />
                 <div className="relative z-10 bg-geo-ink text-white px-2 py-1 text-[9px] font-sans font-bold uppercase tracking-widest mix-blend-difference">
-                  Add Picture Here
+                  {item.type}
                 </div>
               </div>
 
